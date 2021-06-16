@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace EF_Ladestrategien
 {
-    internal class Program
+    public class Program
     {
         private static void Main(string[] args)
         {
