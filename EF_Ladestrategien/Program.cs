@@ -20,8 +20,10 @@ namespace EF_Ladestrategien
 
             using (PersonContext context = new PersonContext())
             {
-                context.Database.EnsureCreated();
+
                 context.Database.EnsureDeleted();
+                context.Database.EnsureCreated();
+                //context.Database.EnsureDeleted();
 
                 DatenAnlegen(context);
 
