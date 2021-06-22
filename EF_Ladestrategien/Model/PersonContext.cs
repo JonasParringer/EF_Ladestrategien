@@ -21,6 +21,7 @@ namespace EF_Ladestrategien.Model
             //optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=PersonDB;Integrated Security=True;").UseLoggerFactory(loggerFactory);
 
             // Mit Unterstützung für Lazy Loading
+            //optionsBuilder.UseLazyLoadingProxies().UseSqlServer(@"Server=PC0373;Database=PersonDB;Integrated Security=True;").UseLoggerFactory(loggerFactory);
             optionsBuilder.UseLazyLoadingProxies().UseSqlServer(@"Server=PC0373;Database=PersonDB;Integrated Security=True;").UseLoggerFactory(loggerFactory);
         }
 
