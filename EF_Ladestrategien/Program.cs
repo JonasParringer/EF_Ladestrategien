@@ -27,7 +27,7 @@ namespace EF_Ladestrategien
 
                 DatenAnlegen(context);
 
-                Load(context);
+                //Load(context);
 
                 //EagerLoading(context);
 
