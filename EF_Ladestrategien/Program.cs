@@ -34,6 +34,7 @@ namespace EF_Ladestrategien
                 LazyLoading(context);
 
                 //ExplicitlyLoading(context);
+
             }
 
             Console.WriteLine("Taste zum Beenden");
